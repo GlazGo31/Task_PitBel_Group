@@ -1,0 +1,22 @@
+@import 'https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap';
+$color-btn: #403432;
+$color-links: #343030;
+$color-title: #343030;
+$color-background: #E5E5E5;
+
+
+@mixin font-text-info($font-weight, $font-size) {
+  font: {
+    family: 'Merriweather', serif;
+    style: normal;
+    weight: $font-weight;
+    size: $font-size;
+  }
+    line-height: 150%;
+}
+
+@mixin flex-container($align, $justify) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+}
